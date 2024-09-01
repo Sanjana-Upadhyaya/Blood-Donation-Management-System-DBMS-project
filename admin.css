@@ -1,0 +1,101 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /*background-color: #ffe6e6;*/
+    background-color: black;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    top: 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+button#logoutBtn {
+    background-color: #ffff00;
+    color: #000000;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button#logoutBtn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 50px white;
+  }
+
+section {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 800px;
+    background-color: #ffffe6;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+table, th, td {
+    border: 1px solid #ffff99;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+th {
+    background-color: #ffffcc;
+}
+
+
+
+tr:nth-last-child(odd){
+    background-color: #ffffe6;
+}
+
+.blood-group-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.blood-group-box {
+    flex: 1 1 calc(25% - 10px);
+    background-color: #ffffcc;
+    border: 1px solid #ffee00;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    /*background-image: url("images/kai-dahms-FB_xKJOLsfI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;*/
+}
+
+.blood-group-box p {
+    margin: 40px;
+    background-color:transparent;
+    font-weight: 600;
+}

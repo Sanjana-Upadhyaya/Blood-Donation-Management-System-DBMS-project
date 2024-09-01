@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient Interface</title>
+  <link rel="stylesheet" href="stylespatient.css">
+</head>
+<body>
+  <header>
+    <h1>Patient Dashboard</h1>
+    <p>Welcome, [Patient Name]!</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#medical-history">Medical History</a></li>
+      <li><a href="#transfusion-history">Transfusion History</a></li>
+      <li><a href="#request-transfusion">Request Transfusion</a></li>
+    </ul>
+  </nav>
+
+  <section id="medical-history">
+    <h2>Medical History</h2>
+    <!-- Display patient's medical history -->
+  </section>
+
+  <section id="transfusion-history">
+    <h2>Transfusion History</h2>
+    <!-- Display patient's transfusion history -->
+  </section>
+
+  <section id="request-transfusion">
+    <h2>Request Transfusion</h2>
+    <form id="transfusion-form">
+        <label for="blood-type">Select Blood Type:</label>
+        <select id="blood-type" name="blood-type" required>
+          <option value="A+">A+</option>
+          <option value="A-">A-</option>
+          <option value="B+">B+</option>
+          <option value="B-">B-</option>
+          <option value="AB+">AB+</option>
+          <option value="AB-">AB-</option>
+          <option value="O+">O+</option>
+          <option value="O-">O-</option>
+        </select>
+    
+        <label for="quantity">Quantity (in units):</label>
+        <input type="number" id="quantity" name="quantity" min="1" required>
+    
+        <label for="urgent">Urgent Request:</label>
+        <input type="checkbox" id="urgent" name="urgent">
+    
+        <button type="submit">Submit Request</button>
+      </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Blood Bank Management System</p>
+  </footer>
+
+  <script src="patient.js"></script>
+</body>
+</html>

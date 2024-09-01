@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Admin Dashboard</h1>
+        <button id="logoutBtn">Logout</button>
+    </header>
+
+    <section id="donors">
+        <h2>All Donors</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Blood Group</th>
+                    <th>City</th>
+                    <th>State</th>
+                </tr>
+            </thead>
+            <tbody id="donorTable">
+                <!-- Data will be inserted here by JS -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="patients">
+        <h2>All Patients</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Blood Group</th>
+                    <th>City</th>
+                    <th>State</th>
+                </tr>
+            </thead>
+            <tbody id="patientTable">
+                <!-- Data will be inserted here by JS -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="donor-blood-count">
+        <h2>Donor Blood Group Count</h2>
+        <div id="donorBloodCountContainer" class="blood-group-container">
+            <!-- Data will be inserted here by JS -->
+        </div>
+    </section>
+
+    <section id="patient-blood-count">
+        <h2>Patient Blood Group Count</h2>
+        <div id="patientBloodCountContainer" class="blood-group-container">
+            <!-- Data will be inserted here by JS -->
+        </div>
+    </section>
+
+    <script src="admin.js"></script>
+</body>
+</html>
