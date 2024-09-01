@@ -65,24 +65,24 @@ The **Blood Donation Management System** is a web application designed to facili
 Here are some screenshots of the application to give you a visual overview:
 
 Homepage
-![Homepage](screenshot/sc_homeheader.png)
-![Homepage](screenshot/sc_homefooter.png)
+![Homepage](screenshots/sc_homeheader.png)
+![Homepage](screenshots/sc_homefooter.png)
 
 Login and Registration Page
-![Login](screenshot/sc_login.png)
-![Registartion](screenshot/sc_regist.png)
+![Login](screenshots/sc_login.png)
+![Registartion](screenshots/sc_regist.png)
 
 Donor Dashboard
-![Donor Dashboard](screenshot/sc_donor1.png)
-![Donor Dashboard](screenshot/sc_donor2.png)
-![Donor Dashboard](screenshot/sc_donor3.png)
+![Donor Dashboard](screenshots/sc_donor1.png)
+![Donor Dashboard](screenshots/sc_donor2.png)
+![Donor Dashboard](screenshots/sc_donor3.png)
 
 Patient Dashboard
-![Patient Dashboard](screenshot/sc_patient1.png)
-![Patient Dashboard](screenshot/sc_patient2.png)
-![Patient Dashboard](screenshot/sc_patient3.png)
+![Patient Dashboard](screenshots/sc_patient1.png)
+![Patient Dashboard](screenshots/sc_patient2.png)
+![Patient Dashboard](screenshots/sc_patient3.png)
 
 Admin Dashboard
-![Admin Dashboard](screenshot/sc_admin1.png)
-![Admin Dashboard](screenshot/sc_admin2.png)
-![Admin Dashboard](screenshot/sc_admin3.png)
+![Admin Dashboard](screenshots/sc_admin1.png)
+![Admin Dashboard](screenshots/sc_admin2.png)
+![Admin Dashboard](screenshots/sc_admin3.png)
